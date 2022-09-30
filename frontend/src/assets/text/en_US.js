@@ -1,0 +1,1 @@
+export const MSG_NO_ITEMS = "No Items";
