@@ -20,7 +20,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li className="search-element">
-                  <i className="bi bi-search ps-2"></i>
+                  <i className="bi bi-search"></i>
                   <input type="text" className="ps-2" placeholder="Search" />
                 </li>
               </ul>

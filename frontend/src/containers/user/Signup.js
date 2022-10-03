@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-// inport assets
 import agenda from '../../assets/images/agenda.png';
 import calender from '../../assets/images/Calendar.png';
 import facebook from '../../assets/images/Facebook logo 2019.png';

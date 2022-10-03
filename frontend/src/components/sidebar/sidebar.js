@@ -5,7 +5,7 @@ export default function SideBar() {
   return (
     <>
       <div>
-        <nav className="sidebar close">
+        <nav className="sidebar">
           <div className="menu-bar">
             <div className="menu">
               <ul className="menu-links">

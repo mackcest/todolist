@@ -1,31 +1,10 @@
-:root {
-  --body-color: #D64E4E;
-  --sidebar-color: #E6E6E6;
-  --primary-color: #FFFFFF;
-  --toggle-color: rgba(163, 154, 154, 0.2);
-  --text-color: #000000;
-  --text-color-light: #FAFAFA;
-  --text-color-low: rgba(0, 0, 0, 0.5);
-  --tran-03: all 0.2s ease;
-  --tran-03: all 0.3s ease;
-  --tran-04: all 0.3s ease;
-  --tran-05: all 0.3s ease;
-  --card-border-radius: 1.3rem;
-  --border-radius-1: 1rem;
-  --border-radius-2: 6px;
-  --card-padding: 1.6rem;
-  --padding-1: 1rem;
-  --padding-2: 8px;
-}
-* {
-  box-sizing: border-box;
-}
 .login-page {
   background-color: var(--body-color);
   width: 100%;
   height: 100%;
   min-height: 100vh;
   min-width: 100vw;
+  max-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +14,15 @@
 .login-form{
   position:block;
 }
-.align-center{
+.login-form .btn {
+  height: 48px;
+  text-transform: capitalize;
+}
+
+.login-form .align-center {
   display: flex;
   align-items: center;
 }
-
 .calender-element {
   border-right: #E6E6E6 solid 2px;
   min-width: 500px;
@@ -59,15 +42,10 @@
   max-height: 500px!important;
   margin-left: 5%;
 }
-
-.btn {
-  height: 48px;
-  text-transform: capitalize;
-}
-
 .form-control {
   height: 48px;
 }
+
 @media only screen and (max-width: 994px) {
   .calender-element{
     display: none;
