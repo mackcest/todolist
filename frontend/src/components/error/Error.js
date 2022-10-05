@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/styles/home.css';
-function NotFound() {
+function Error() {
   return <div className="center">404 | Not Found ...</div>;
 }
 
-export default NotFound;
+export default Error;

@@ -1,7 +1,8 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+// import { NavLink } from 'react-router-dom';
 import '../../assets/styles/header.css';
-export default function Header() {
+export default function Header(props) {
+  const [isExpandedMenu, setIsExpandedMenu] = useState(false);
   return (
     <>
       <header className="top-bar">
@@ -9,7 +10,12 @@ export default function Header() {
           <section className="row justify-content-between">
             <div className="col-auto">
               <ul className="top-bar__feature-list-left">
-                <li>
+                <li
+                  onClick={() => {
+                    setIsExpandedMenu((isExpandedMenu) => !isExpandedMenu);
+                    props.ExpandedMenu(isExpandedMenu);
+                  }}
+                >
                   <a href="#">
                     <i className="bi bi-list"></i>
                   </a>

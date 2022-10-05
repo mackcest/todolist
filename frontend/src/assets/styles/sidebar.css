@@ -1,37 +1,28 @@
-/* .sidebar {
+.sidebar {
   position: fixed;
   left: 0;
   height: 100%;
-  width: 250px;
-  padding: 10px;
-  background: var(--sidebar-color);
+  width: 300px;
+    padding: 20px;
+    background: #E6E6E6;
   z-index: 100;
 }
-
-.sidebar.close {
-  width: 310px;
+.sidebar ul {
+  padding: 0;
 }
-
-.menu-links > ul > li {
-  height: 50px;
+.menu-links>li {
+  height: 30px;
   list-style-type: none;
   display: flex;
   align-items: center;
   margin-top: 10px;
   color: #202020;
 }
-
-.sidebar header .image,
 .sidebar .icon {
-  min-width: 60px;
-  border-radius: 6px;
-}
-
-.sidebar .icon {
-  min-width: 60px;
+  min-width: 50px;
   border-radius: 6px;
   height: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .sidebar .text,
@@ -41,12 +32,13 @@
 }
 
 .sidebar .text {
-  font-size: 18px;
+  font-size: 16px;
   white-space: nowrap;
   opacity: 1;
 }
 
 .sidebar li a {
+  padding: 18px 10px;
   list-style: none;
   height: 100%;
   background-color: transparent;
@@ -57,4 +49,29 @@
   border-radius: 6px;
   text-decoration: none;
   transition: var(--tran-03);
-} */
+}
+
+.icon,
+.nav-text {
+  display: inline-block;
+}
+
+.sidebar li a:hover {
+  background-color: rgba(163, 154, 154, 0.2);
+}
+
+.sidebar .bi-inbox {
+  color: #63A5D4;
+}
+
+.sidebar .bi-calendar-date {
+  color: #5CA863;
+}
+
+.sidebar .bi-calendar3 {
+  color: #8E68B4;
+}
+
+.sidebar .bi-grid {
+  color: #AE6262;
+}

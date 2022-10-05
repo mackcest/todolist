@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../../components/header';
 import SideBar from '../../components/sidebar/sidebar';
+
 export default function Inbox() {
+  const [name, setName] = useState(true);
+  const getExpandedMenu = (data) => {
+    setName(data);
+  };
   return (
-    <>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <SideBar />
-      </div>
-    </>
+    <div>
+      <Header ExpandedMenu={getExpandedMenu} />
+      <SideBar name={name} />
+    </div>
   );
 }

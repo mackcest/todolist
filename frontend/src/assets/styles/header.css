@@ -21,10 +21,10 @@
     margin: 0 3px;
 }
 .top-bar__feature-list-left > li > a > i,
-.top-bar__feature-list-right > li > a > i,
-span {
+.top-bar__feature-list-right>li>a>i {
     color:rgb(255, 255, 255);
     font-size: 18px;
+    transition: var(--tran-03);
 }
 .top-bar__feature-list-left > li:hover,
 .top-bar__feature-list-right > li:hover{
@@ -43,6 +43,7 @@ span {
 .search-element  > input{
     background:rgba(217, 217, 217, 0.01);
     color: #202020;
+    width: 180px;
     outline: none;
     border: none;
     transition: 100% .2s ease-in,rgba(217, 217, 217, 0.2) .15s cubic-bezier(.4,0,.2,1);
@@ -56,7 +57,7 @@ span {
     background: #fafafa;
     color:  #202020!important;
     border-radius: 3px;
-    width: 380px;
+    width: 300px;
 }
 .top-bar input::placeholder { color:rgba(255, 255, 255, 0.8) }
 .top-bar input:hover::placeholder { color:#202020 }
