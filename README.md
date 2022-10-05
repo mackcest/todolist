@@ -1,8 +1,7 @@
 # TODO-LIST-APP
-[IMAGE](https://github.com/mackcest/todolist/blob/master/design/LOGIN.png)
-[IMAGE](https://github.com/mackcest/todolist/blob/master/design/Today.png)
-[IMAGE](https://github.com/mackcest/todolist/blob/master/design/Today/addtask.png)
-[IMAGE](https://github.com/mackcest/todolist/blob/master/design/inbox/add%20section.png)
+![IMAGE](https://raw.githubusercontent.com/mackcest/todolist/master/design/LOGIN.png)
+![IMAGE](https://raw.githubusercontent.com/mackcest/todolist/master/design/Today/addtask.png)
+![IMAGE](https://raw.githubusercontent.com/mackcest/todolist/master/design/inbox/add%20section.png)
 ## Features
 - API built with Node, Express, Mongobd
 - Web built with React and ReduxToolkit
