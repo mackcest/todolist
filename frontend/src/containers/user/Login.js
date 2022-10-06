@@ -44,7 +44,7 @@ function Login() {
                 <input type="password" className="form-control" id="pwd" placeholder="Password" name="pswd" />
               </div>
               <button type="submit" className="btn btn-light mb-3 w-100 ">
-                Sign In
+                <Link to="/inbox">Sign In</Link>
               </button>
               <div className="text-light">
                 <div className="text-end pb-3">
@@ -60,6 +60,6 @@ function Login() {
       </div>
     </div>
   );
-}
+}   
 
 export default Login;

@@ -57,6 +57,7 @@
 
 .login-page a:link {
   color: rgb(255, 255, 255);
+  text-decoration: none;  
 }
 .login-page a{
   color: rgb(255, 255, 255);
